@@ -3,5 +3,3 @@ virtualmachines:
 - name: editortest
   image: debian-cloud/debian-12
   machine_type: n1-standard-1
-  memory: 4096
-  cpus: 1

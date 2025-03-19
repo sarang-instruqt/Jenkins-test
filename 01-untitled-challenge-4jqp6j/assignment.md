@@ -2,7 +2,7 @@
 slug: untitled-challenge-4jqp6j
 id: przoeb9pgzua
 type: challenge
-title: Untitled Challenge
+title: Jenkins setup
 tabs:
 - id: wi0aylymcunw
   title: loadtest
@@ -13,7 +13,7 @@ tabs:
   title: terminal
   type: terminal
   hostname: editortest
-  path: ?workdir=%2F
+  workdir: /
 difficulty: ""
 timelimit: 0
 lab_config:
