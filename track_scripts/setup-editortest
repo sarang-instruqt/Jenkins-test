@@ -1,0 +1,13 @@
+#!/bin/bash
+set -euxo pipefail
+
+mkdir -p /root/.local/share/code-server/User
+
+cat > /root/.local/share/code-server/User/settings.json <<-EOF
+{
+    "workbench.colorTheme": "Default Dark Modern",
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.enabled": false,
+    "git.openRepositoryInParentFolders": "never",
+    "window.menuBarVisibility": "classic",
+}
